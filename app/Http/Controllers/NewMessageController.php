@@ -18,7 +18,7 @@ class NewMessageController extends Controller {
 			$title = $request -> get('title');
 			$content = $request -> get('content');
 			NewMessage::create(['title' => $title, 'content' => $content]);
-			return view('index');
+			return redirect('index');
 		//}
 	}
 

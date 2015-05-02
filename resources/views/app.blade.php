@@ -6,8 +6,48 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Laravel</title>
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="{{ asset('/css/loaders.min.css') }}">
+	<style>
+		div.groove {
+					border-style: groove;
+					margin-right:200px;
+					margin-left: 200px;
+		}
+		#para1 {
+			background-color: #e0ffff;
+			text-align: center;
+		}
+		div.double{
+			border-style: double;
+		}
+		p {
+			font-family: impact;
+			font-size:150%;
 
+		}
+		div.img1{
+			margin:5px;
+			padding:5px;
+			border:1px solid #0000ff;
+			height :auto;
+			width :auto;
+			float:left;
+			text-align:center;
+		}
+		div.img2{
+			margin:5px;
+			padding:5px;
+			border:1px solid #0000ff;
+			height :auto;
+			width :auto;
+			float:right;
+			text-align:center;
+		}
+	
+		
+
+
+	</style>
+	
 	<!-- Fonts -->
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
