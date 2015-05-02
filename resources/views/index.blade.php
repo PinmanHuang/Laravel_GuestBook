@@ -14,7 +14,7 @@
 		</div>
 		<div>
 
-			{!! Form::submit('提交', array('class'=>'ui blue submit button'))!!}
+			{!! Form::submit('提交', array('class'=>'btn btn-primary)!!}
 			
 		</div>
 </div>		
