@@ -14,8 +14,11 @@
 Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
-
 Route::post('new', 'MessageController@store');
+
+Route::get('index', 'IndexController@index');
+Route::post('addMsg', 'NewMessageController@store');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
