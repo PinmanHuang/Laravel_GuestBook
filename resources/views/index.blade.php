@@ -14,10 +14,10 @@
 		</div>
 		<div>
 
-			{!! Form::submit('提交', array('class'=>'btn btn-primary)!!}
+			{!! Form::submit('提交', array('class'=>'btn btn-primary'))!!}
 			
 		</div>
-</div>		
+	</div>		
 	{!! Form::close()!!}
 </div>
 <div>

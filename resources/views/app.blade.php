@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Laravel</title>
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="{{ asset('/css/loaders.min.css') }}">
 
 	<!-- Fonts -->
 
