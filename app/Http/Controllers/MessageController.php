@@ -12,7 +12,7 @@ class MessageController extends Controller {
 	    $this -> middleware('auth');
 	}
 
-	public function store(Request $request) {                                                                                                     
+	public function store(Request $request) {                                                                                                  
 	    $title = $request->get('title');                                                                                                         
 	    $content = $request->get('content');                                                                                                     
 	    Message::create(['title'=>$title, 'content'=>$content]);                                                                                 

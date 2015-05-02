@@ -7,7 +7,7 @@
 			<div class="panel panel-default">
 				<div class="panel-heading">Home</div>
 				<div class="panel-body">
-					{!! Form::open(array('url'=>'new', 'method'=>'post'))!!}                                
+					{!! Form::open(array('url'=>'new', 'method'=>'post'))!!}  
 					    <div class='form-group'>                                                                                                
 					        {!! Form::label('title', 'Title')!!}
 					        <br/>                                                     
@@ -19,8 +19,9 @@
 					        <br/>                                                                                                                
 					        {!! Form::textarea('content')!!}
 					    </div>
-					    
-					    {!! Form::submit('Send', array('class'=>'btn btn-primary'))!!}
+					  
+					    	{!! Form::submit('Send', array('class'=>'btn btn-primary'))!!}
+					
 					 {!! Form::close()!!}
 				</div>
 
@@ -29,6 +30,7 @@
 				        <div class="panel-heading">
 				        	<h4> {{ $message->title }}</h4>
 				        </div>
+
 				        <div class="panel-body">{{ $message->content }}</div>                                        
 				    </div>                                                                                                                           
 				@endforeach
