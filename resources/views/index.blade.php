@@ -20,4 +20,14 @@
 </div>		
 	{!! Form::close()!!}
 </div>
+<div>
+	@foreach($allMessage as $allMessage)
+	<div>
+		{{ $allMessage -> title }}
+	</div>
+	<div>
+		{{ $allMessage -> content }}
+	</div>
+	@endforeach
+</div>
 @endsection
