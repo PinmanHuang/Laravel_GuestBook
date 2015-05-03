@@ -17,7 +17,7 @@ Route::get('home', 'HomeController@index');
 Route::post('new', 'MessageController@store');
 
 Route::get('index', 'IndexController@index');
-Route::post('addMsg', 'NewMessageController@store');
+Route::post('addMsg', 'NewMessageController@stored');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

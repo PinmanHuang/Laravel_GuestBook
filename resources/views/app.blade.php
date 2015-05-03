@@ -4,7 +4,10 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="csrf-token" content="{{ csrf_token() }}">	
 	<title>Laravel</title>
+	<script type="text/javascript" src="{{ asset('jquery-2.1.3.min.js')}}"></script>
+	<script type="text/javascript" src="{{ asset('app.js')}}"></script>
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
 	<!-- Fonts -->
@@ -47,6 +50,8 @@
 						</li>
 					@endif
 				</ul>
+				<input type="hidden" name="_token" value="{{ Session::token() }}">
+				<input type="hidden" name="_token" value="<?php Session::token()?> ">
 			</div>
 		</div>
 	</nav>

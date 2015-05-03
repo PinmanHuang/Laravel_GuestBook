@@ -1,20 +1,20 @@
 @extends('app')
 
 @section('content')
-<div >
+<div class="inForm">
 	<div class="panel-body">
-		{!! Form::open(array('url'=>'addMsg', 'method'=>'post'))!!}
+		{!! Form::open()!!}
 		<div class="form-group">
 			{!! Form::label('title', '標題')!!}
-			{!! Form::text('title')!!}
+			{!! Form::text('title', null, array('class' => 'title'))!!}
 		</div>
 		<div class="form-group">
 			{!! Form::label('content', '內容')!!}
-			{!! Form::textarea('content')!!}
+			{!! Form::textarea('content', null, array('class' => 'content'))!!}
 		</div>
 		<div>
 
-			{!! Form::submit('提交', array('class'=>'btn btn-primary'))!!}
+			{!! Form::button('提交', array('class'=>'btn btn-primary', 'id' => 'submitButton'))!!}
 			
 		</div>
 	</div>		
