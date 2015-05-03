@@ -19,9 +19,7 @@
 					        <br/>                                                                                                                
 					        {!! Form::textarea('content')!!}
 					    </div>
-					  
 					    	{!! Form::submit('Send', array('class'=>'btn btn-primary'))!!}
-					
 					 {!! Form::close()!!}
 				</div>
 

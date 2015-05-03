@@ -9,7 +9,58 @@
 	<script type="text/javascript" src="{{ asset('jquery-2.1.3.min.js')}}"></script>
 	<script type="text/javascript" src="{{ asset('app.js')}}"></script>
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+<<<<<<< HEAD
+	<style>
+		div.groove {
+					border-style: groove;
+					margin-right:200px;
+					margin-left: 200px;
+		}
+		#para1 {
+			background-color: #e0ffff;
+			text-align: center;
+		}
+		div.double{
+			border-style: double;
+		}
+		p {
+			font-family: impact;
+			font-size:150%;
+=======
+>>>>>>> 134f0af13a7800ea491bbf51a9a98b4016b3c20b
 
+		}
+		#comment{
+		/*	width:500px;
+			margin:0 auto;
+        可自動算, 0代表上下 auto代表左右*/
+        	margin-right:100px; 
+		}
+
+		div.img1{
+			margin:5px;
+			padding:5px;
+			border:1px solid #0000ff;
+			height :auto;
+			width :auto;
+			float:left;
+			text-align:center;
+		}
+		div.img2{
+			margin:5px;
+			padding:5px;
+			border:1px solid #0000ff;
+			height :auto;
+			width :auto;
+			float:right;
+			text-align:center;
+		}
+	
+		
+
+
+	</style>
+	
 	<!-- Fonts -->
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
