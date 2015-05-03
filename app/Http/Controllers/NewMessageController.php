@@ -22,4 +22,12 @@ class NewMessageController extends Controller {
 		//}
 	}
 
+	public function stored(Request $request) {
+		//return "123";
+		$title = $request -> get('title');
+		$content = $request -> get('content');
+		$post = NewMessage::create(['title' => $title, 'content' => $content]);
+		return Response() -> json(['allMessage' => $post]);
+	}
+
 }
