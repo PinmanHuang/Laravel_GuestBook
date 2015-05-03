@@ -34,7 +34,7 @@
 <div class="double">
 	@foreach($allMessage as $allMessage)
 	<br/>
-	
+	<div  id="comment">
 		<table class="table table-bordered">
 			<div>
 				<tr>
@@ -44,9 +44,9 @@
 			</div>
 			<tr>
 				<div>
-						<td> 
-							{{ $allMessage -> title }}
-						</td>
+					<td> 
+						{{ $allMessage -> title }}
+					</td>
 				</div>
 
 				<div>
@@ -55,8 +55,8 @@
 					</td>
 				</div>
 			</tr>	
-
 		</table>	
+	</div>	
 	<br/>	
 	@endforeach
 </div>

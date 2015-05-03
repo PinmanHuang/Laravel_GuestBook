@@ -24,6 +24,13 @@
 			font-size:150%;
 
 		}
+		#comment{
+		/*	width:500px;
+			margin:0 auto;
+        可自動算, 0代表上下 auto代表左右*/
+        	margin-right:100px; 
+		}
+
 		div.img1{
 			margin:5px;
 			padding:5px;
